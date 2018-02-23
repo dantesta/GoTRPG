@@ -1,7 +1,14 @@
 body {
     background: url('../images/GoTback.jpg') no-repeat;
     background-size: cover;
+    font-family: 'MedievalSharp', sans-serif;
 
     
     
+}
+
+.jumbotron {
+    background-color: lightgray;
+    color: #fff;
+
 }

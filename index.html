@@ -7,9 +7,77 @@
 
         <!-- Bootstrap CSS  -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+        <!-- Google Fonts  -->
+        <link href="https://fonts.googleapis.com/css?family=MedievalSharp" rel="stylesheet">
         <!-- Custom CSS  -->
         <link href="assets/css/style.css" rel="stylesheet">
     </head>
     
-    <body></body>
+    <body>
+        
+    <div class="container">
+
+        <div class="jumbotron text-center">
+            <h1>Game of Thrones RPG</h1>
+        </div>
+
+        <!-- Character Select-->
+        <div class="row">
+                
+            <div class="card" style="width: 100%;">
+                <div class="card-header">
+                    <h4 class="card-title" style="text-align: center">Select a Character</h4>
+                </div>
+                <div class="card-body">
+
+                    <div class="row">
+                                
+                        <div class="col-md-3 character" data-name="jon" data-power="6" data-hp="60">
+                                <div class="card characters"  >
+                                        <img class="card-img-top" src="assets/images/jon.png" alt="Image">
+                                        <div class="card-body">
+                                            <h4 class="card-title" id="characterSelect">Jon Snow</h4>
+                                            <p class="card-text">HP: <span id="hp">130</span></p>
+                                        </div>
+                                </div>
+                        </div><!--/ col-md-3 -->
+            
+                        <div class="col-md-3 character"  data-name="cersei" data-power="5" data-hp="70">
+                                <div class="card characters" >
+                                        <img class="card-img-top" src="assets/images/cersei.png" alt="Image">
+                                        <div class="card-body">
+                                            <h4 class="card-title" id="characterSelect">Cersei Lannister</h4>
+                                            <p class="card-text">HP: <span id="hp">100</span></p>
+                                        </div>
+                                </div>
+                        </div><!--/ col-md-3 -->
+            
+                        <div class="col-md-3 character" data-name="nk" data-power="9" data-hp="75">
+                                <div class="card characters"  >
+                                        <img class="card-img-top" src="assets/images/nk.jpg" alt="Image">
+                                        <div class="card-body">
+                                            <h4 class="card-title" id="characterSelect">Night King</h4>
+                                            <p class="card-text">HP: <span id="hp">200</span></p>
+                                        </div>
+                                </div>
+                        </div><!--/ col-md-3 -->
+            
+                        <div class="col-md-3 character" data-name="dany" data-power="8" data-hp="80">
+                                <div class="card characters">
+                                        <img class="card-img-top" src="assets/images/dany.jpg" alt="Image">
+                                        <div class="card-body">
+                                            <h4 class="card-title" id="characterSelect">Daenerys Targaryen</h4>
+                                            <p class="card-text">HP: <span id="hp">120</span></p>
+                                        </div>
+                                </div>
+                        </div>   
+                    </div>    
+                </div>    
+            </div>
+        </div>
+
+    
+     </div> 
+
+    </body>
 </html>
